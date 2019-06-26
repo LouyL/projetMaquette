@@ -1,0 +1,49 @@
+#hero{
+    width: 100%;
+    height: auto;
+}
+.paddingBottom{
+    padding-bottom: 10%;
+}
+.container{
+    margin-top: 6%;
+}
+.pixel{
+    font-size:6em;
+    margin-top: 15px;
+    color:#671876;
+    &:hover{
+        font-size:5em;
+    }
+}
+// le bouton section 1
+.btn-outline-danger:hover{
+    color:white;
+    background-color:#671876;
+    border-color:#671876;
+}
+.btn-outline-danger{
+    color:#671876;
+    border-color:#671876;
+    border: solid 2px #671876;
+}
+.card{
+    border: 5px solid rgba(0,0,0,.125);
+}
+.marge{
+    margin-top:7%;
+}
+hr{
+    border-top: 2.8px solid rgba(0,0,0,.1);
+    width: 15%;
+    border-color:#671876;
+}
+@media (max-width: 640px) {
+    .paddingBottom{
+        padding-left: 10%;
+    }
+    .mobile {
+        margin-bottom: 5%;
+    }
+}
+

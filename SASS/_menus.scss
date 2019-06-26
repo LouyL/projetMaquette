@@ -1,0 +1,99 @@
+#forest{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://i.pinimg.com/originals/f6/7d/fe/f67dfefbf70944d426cebf2f5d0b1a3a.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    filter: blur(50%);
+}
+.postion{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.color{
+    color: #671876;
+    font-family: 'Abril Fatface', cursive;
+}
+.logo{
+    font-size:2.7em!important;
+}
+.size{
+    font-size: 1.7em;
+    font-family: 'Abril Fatface', cursive;
+    color: $white;
+}
+.size2{
+    font-size:2.7em!important;
+    color: $white;
+    font-family: 'Abril Fatface', cursive;
+}
+.size3{
+    font-size:3.4em!important;
+}
+.margin{
+    margin-right: 11px;
+margin-left: 11px;
+}
+.agrandir{
+    font-size: 4em;
+    color: #7f1e92;
+        &:hover{ 
+            color:#671876 ;
+    }
+}
+.mouve{
+    position: absolute;
+    bottom:100%;
+    left: 49%;
+    transform: translateX(-50%,-50%);
+    animation: mouve 1.5s infinite ;
+
+} 
+@keyframes mouve{
+
+    0%{ bottom:0 ; }
+
+    50%{ bottom: 40px; }
+
+    100% { bottom: 0; } 
+}
+@media (max-width: 640px) {
+    .mouve{
+        display: none;
+    }
+    
+    .postion{
+        position: relative;
+        top: 187px;
+    }
+    #forest{
+        width: 100%;
+        height: auto;
+    }
+    .size2{
+        font-size:2em !important;
+        color: $white;
+    }
+    .size{
+        font-size: 1.5em;
+    font-family: 'Abril Fatface', cursive;
+    color: $white;
+    }
+    .size3{
+        font-size:2.5em !important;
+    }
+    .margin{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .navbar-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+

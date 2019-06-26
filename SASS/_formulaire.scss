@@ -1,0 +1,35 @@
+.backg{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.leButton{
+    color:white;
+    // border-color:#671876;
+    // border: solid 2px #671876;
+    font-family: 'Crimson Text', serif;
+    font-size:25px;
+}
+.leButton:hover{
+}
+.labelSize{
+    font-family: 'Abril Fatface', cursive;
+    font-size:2em;
+}
+
+
+.title {
+    border: 1px solid black;
+}
+
+.text-form{
+    font-size: 25px;
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+}
+
+.info {
+    position: relative;
+}

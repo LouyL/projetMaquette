@@ -1,0 +1,25 @@
+.vc-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: radial-gradient(circle, #760f88, #8e17a3);
+    color: #fff;
+}
+
+.vc-heading {
+    margin: 0 0 10px;
+    font-size: 8em;
+    text-shadow: 0px 1px 4px #393333;
+    font-weight: 700;
+}
+
+.vc-subheading {
+    margin: 0 0 30px;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+.btn404{
+    color:white;
+}
